@@ -1,0 +1,10 @@
+The corrected CSS code adds spaces around the plus and minus operators within the `calc()` function. This ensures that the calculation is performed correctly:
+
+```css
+.element {
+  width: calc(50% + 20px);
+  height: calc(100% - 40px);
+}
+```
+
+By including these spaces, the browser accurately interprets the mathematical expression and renders the element with the expected dimensions.
